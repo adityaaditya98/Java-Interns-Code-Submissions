@@ -1,0 +1,17 @@
+
+public class Main {
+    public static void main(String[] args) {
+        char a ='a';
+        String b="aditya";
+        String c = "boddu";
+        System.out.println(b.length());
+        System.out.println(c.charAt(0));
+        System.out.println(c.compareTo(b));
+        System.out.println(b.strip());
+        System.out.println(c.toCharArray());
+        System.out.println(c.toLowerCase());
+        System.out.println(b.toUpperCase());
+        System.out.println(b.substring(1,3));
+
+    }
+}
