@@ -1,0 +1,49 @@
+class Main {
+    String name;
+    int rollno;
+    int age;
+
+    void info(){
+        System.out.println(name);
+        System.out.println(rollno);
+        System.out.println(age);
+
+    }
+    public static void main(String[] args) {
+        Main student = new Main();
+        student.name = "aditya";
+        student.rollno = 253;
+        student.age =21;
+        student.info();
+    }
+}
+
+
+///////////////////////////////////
+
+public class Main2 {
+    public static void main(String args[]){
+        int[] arr = {31,87,3,589};
+        int searchfor=31;
+        int i;
+        Boolean foundIt=false;
+        for(i=0;i<arr.length;i++){
+            if(arr[i]==searchfor){
+                foundIt=true;
+                break;
+            }
+        }
+        if(foundIt){
+            System.out.println("found"+searchfor+"Index"+i);
+        }else{
+            System.out.println("Not Found");
+        }
+
+        int[] a = new int[4];
+        a[1]=200;
+        a[2]=
+        a[3]=300;
+        System.out.println(a[1]);
+
+    }
+}
